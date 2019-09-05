@@ -15,14 +15,15 @@ CREATE TABLE products(
 
 Select * FROM products;
 
+
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) 
-VALUES (101, "jock stap", "soccer", 69.99, 20),
-	   (212, "jerseys", "basketball", 99.99, 10),
-	   (313, "helmet", "football", 29.99, 5),
-	   (420, "sweater", "hockey", 129.99, 14),
-	   (504, "pants", "football", 39.99, 15),
-	   (619, "shorts", "soccer", 19.99, 19),
-	   (720, "gloves", "baseball", 49.99, 11),
-	   (808, "bats", "baseball", 69.99, 10),
-	   (913, "pucks", "hockey", 9.99, 19),
-	   (1009, "shoes", "basketball", 89.99, 17)
+VALUES (00101, "jockstap", "soccer", 69.99, 20),
+	   (00212, "jerseys", "basketball", 79.99, 10),
+	   (03013, "helmet", "football", 39.99, 5),
+	   (42000, "birdie", "badminton", 165.99, 14),
+	   (05004, "pants", "football", 70.99, 15),
+	   (06109, "shorts", "soccer", 20.99, 19),
+	   (70200, "gloves", "baseball", 69.99, 11),
+	   (80008, "bats", "baseball", 69.99, 10),
+	   (91003, "ball", "tennis", 9.99, 19),
+	   (10009, "jockstap", "basketball", 89.99, 17)
